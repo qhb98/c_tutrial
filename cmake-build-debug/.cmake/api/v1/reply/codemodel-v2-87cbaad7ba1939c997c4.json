@@ -58,7 +58,9 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						10,
+						11
 					]
 				},
 				{
@@ -96,7 +98,9 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						10,
+						11
 					]
 				}
 			],
@@ -170,6 +174,20 @@
 					"id" : "start_chapters-demo09::@1ebca8e0aafe2d4c9fe0",
 					"jsonFile" : "target-start_chapters-demo09-Debug-0036d63ab337d141ae94.json",
 					"name" : "start_chapters-demo09",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "start_chapters-demo10::@1ebca8e0aafe2d4c9fe0",
+					"jsonFile" : "target-start_chapters-demo10-Debug-8b026906769b27e9019b.json",
+					"name" : "start_chapters-demo10",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "start_chapters-demo11::@1ebca8e0aafe2d4c9fe0",
+					"jsonFile" : "target-start_chapters-demo11-Debug-cdc634ac0a9c2f082329.json",
+					"name" : "start_chapters-demo11",
 					"projectIndex" : 0
 				}
 			]

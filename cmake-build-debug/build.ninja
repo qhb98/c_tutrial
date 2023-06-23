@@ -435,6 +435,74 @@ build c++_start/start_chapters/start_chapters-demo09.exe: CXX_EXECUTABLE_LINKER_
   TARGET_IMPLIB = c++_start\start_chapters\libstart_chapters-demo09.dll.a
   TARGET_PDB = start_chapters-demo09.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target start_chapters-demo10
+
+
+#############################################
+# Order-only phony target for start_chapters-demo10
+
+build cmake_object_order_depends_target_start_chapters-demo10: phony || c++_start/start_chapters/CMakeFiles/start_chapters-demo10.dir
+
+build c++_start/start_chapters/CMakeFiles/start_chapters-demo10.dir/demo10.cpp.obj: CXX_COMPILER__start_chapters-demo10_Debug C$:/资料/c++_repo/c++_start/start_chapters/demo10.cpp || cmake_object_order_depends_target_start_chapters-demo10
+  DEP_FILE = c++_start\start_chapters\CMakeFiles\start_chapters-demo10.dir\demo10.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/资料/c++_repo/c++_start/. -IC:/资料/c++_repo/c++_start/start_chapters/.
+  OBJECT_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo10.dir
+  OBJECT_FILE_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo10.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target start_chapters-demo10
+
+
+#############################################
+# Link the executable c++_start\start_chapters\start_chapters-demo10.exe
+
+build c++_start/start_chapters/start_chapters-demo10.exe: CXX_EXECUTABLE_LINKER__start_chapters-demo10_Debug c++_start/start_chapters/CMakeFiles/start_chapters-demo10.dir/demo10.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo10.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = c++_start\start_chapters\start_chapters-demo10.exe
+  TARGET_IMPLIB = c++_start\start_chapters\libstart_chapters-demo10.dll.a
+  TARGET_PDB = start_chapters-demo10.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target start_chapters-demo11
+
+
+#############################################
+# Order-only phony target for start_chapters-demo11
+
+build cmake_object_order_depends_target_start_chapters-demo11: phony || c++_start/start_chapters/CMakeFiles/start_chapters-demo11.dir
+
+build c++_start/start_chapters/CMakeFiles/start_chapters-demo11.dir/demo11.cpp.obj: CXX_COMPILER__start_chapters-demo11_Debug C$:/资料/c++_repo/c++_start/start_chapters/demo11.cpp || cmake_object_order_depends_target_start_chapters-demo11
+  DEP_FILE = c++_start\start_chapters\CMakeFiles\start_chapters-demo11.dir\demo11.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/资料/c++_repo/c++_start/. -IC:/资料/c++_repo/c++_start/start_chapters/.
+  OBJECT_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo11.dir
+  OBJECT_FILE_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo11.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target start_chapters-demo11
+
+
+#############################################
+# Link the executable c++_start\start_chapters\start_chapters-demo11.exe
+
+build c++_start/start_chapters/start_chapters-demo11.exe: CXX_EXECUTABLE_LINKER__start_chapters-demo11_Debug c++_start/start_chapters/CMakeFiles/start_chapters-demo11.dir/demo11.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo11.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = c++_start\start_chapters\start_chapters-demo11.exe
+  TARGET_IMPLIB = c++_start\start_chapters\libstart_chapters-demo11.dll.a
+  TARGET_PDB = start_chapters-demo11.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -527,6 +595,14 @@ build start_chapters-demo09: phony c++_start/start_chapters/start_chapters-demo0
 
 build start_chapters-demo09.exe: phony c++_start/start_chapters/start_chapters-demo09.exe
 
+build start_chapters-demo10: phony c++_start/start_chapters/start_chapters-demo10.exe
+
+build start_chapters-demo10.exe: phony c++_start/start_chapters/start_chapters-demo10.exe
+
+build start_chapters-demo11: phony c++_start/start_chapters/start_chapters-demo11.exe
+
+build start_chapters-demo11.exe: phony c++_start/start_chapters/start_chapters-demo11.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -549,7 +625,7 @@ build c++_start/all: phony c++_start/start_chapters/all
 #############################################
 # Folder: C:/资料/c++_repo/cmake-build-debug/c++_start/start_chapters
 
-build c++_start/start_chapters/all: phony c++_start/start_chapters/start_chapters-demo01.exe c++_start/start_chapters/start_chapters-demo02.exe c++_start/start_chapters/start_chapters-demo03.exe c++_start/start_chapters/start_chapters-demo04.exe c++_start/start_chapters/start_chapters-demo05.exe c++_start/start_chapters/start_chapters-demo06.exe c++_start/start_chapters/start_chapters-demo07.exe c++_start/start_chapters/start_chapters-demo08.exe c++_start/start_chapters/start_chapters-demo09.exe
+build c++_start/start_chapters/all: phony c++_start/start_chapters/start_chapters-demo01.exe c++_start/start_chapters/start_chapters-demo02.exe c++_start/start_chapters/start_chapters-demo03.exe c++_start/start_chapters/start_chapters-demo04.exe c++_start/start_chapters/start_chapters-demo05.exe c++_start/start_chapters/start_chapters-demo06.exe c++_start/start_chapters/start_chapters-demo07.exe c++_start/start_chapters/start_chapters-demo08.exe c++_start/start_chapters/start_chapters-demo09.exe c++_start/start_chapters/start_chapters-demo10.exe c++_start/start_chapters/start_chapters-demo11.exe
 
 # =============================================================================
 
