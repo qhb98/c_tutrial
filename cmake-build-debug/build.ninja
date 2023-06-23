@@ -537,6 +537,74 @@ build c++_start/start_chapters/start_chapters-demo12.exe: CXX_EXECUTABLE_LINKER_
   TARGET_IMPLIB = c++_start\start_chapters\libstart_chapters-demo12.dll.a
   TARGET_PDB = start_chapters-demo12.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target start_chapters-demo13
+
+
+#############################################
+# Order-only phony target for start_chapters-demo13
+
+build cmake_object_order_depends_target_start_chapters-demo13: phony || c++_start/start_chapters/CMakeFiles/start_chapters-demo13.dir
+
+build c++_start/start_chapters/CMakeFiles/start_chapters-demo13.dir/demo13.cpp.obj: CXX_COMPILER__start_chapters-demo13_Debug C$:/资料/c++_repo/c++_start/start_chapters/demo13.cpp || cmake_object_order_depends_target_start_chapters-demo13
+  DEP_FILE = c++_start\start_chapters\CMakeFiles\start_chapters-demo13.dir\demo13.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/资料/c++_repo/c++_start/. -IC:/资料/c++_repo/c++_start/start_chapters/.
+  OBJECT_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo13.dir
+  OBJECT_FILE_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo13.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target start_chapters-demo13
+
+
+#############################################
+# Link the executable c++_start\start_chapters\start_chapters-demo13.exe
+
+build c++_start/start_chapters/start_chapters-demo13.exe: CXX_EXECUTABLE_LINKER__start_chapters-demo13_Debug c++_start/start_chapters/CMakeFiles/start_chapters-demo13.dir/demo13.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo13.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = c++_start\start_chapters\start_chapters-demo13.exe
+  TARGET_IMPLIB = c++_start\start_chapters\libstart_chapters-demo13.dll.a
+  TARGET_PDB = start_chapters-demo13.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target start_chapters-demo14
+
+
+#############################################
+# Order-only phony target for start_chapters-demo14
+
+build cmake_object_order_depends_target_start_chapters-demo14: phony || c++_start/start_chapters/CMakeFiles/start_chapters-demo14.dir
+
+build c++_start/start_chapters/CMakeFiles/start_chapters-demo14.dir/demo14.cpp.obj: CXX_COMPILER__start_chapters-demo14_Debug C$:/资料/c++_repo/c++_start/start_chapters/demo14.cpp || cmake_object_order_depends_target_start_chapters-demo14
+  DEP_FILE = c++_start\start_chapters\CMakeFiles\start_chapters-demo14.dir\demo14.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/资料/c++_repo/c++_start/. -IC:/资料/c++_repo/c++_start/start_chapters/.
+  OBJECT_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo14.dir
+  OBJECT_FILE_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo14.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target start_chapters-demo14
+
+
+#############################################
+# Link the executable c++_start\start_chapters\start_chapters-demo14.exe
+
+build c++_start/start_chapters/start_chapters-demo14.exe: CXX_EXECUTABLE_LINKER__start_chapters-demo14_Debug c++_start/start_chapters/CMakeFiles/start_chapters-demo14.dir/demo14.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo14.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = c++_start\start_chapters\start_chapters-demo14.exe
+  TARGET_IMPLIB = c++_start\start_chapters\libstart_chapters-demo14.dll.a
+  TARGET_PDB = start_chapters-demo14.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -641,6 +709,14 @@ build start_chapters-demo12: phony c++_start/start_chapters/start_chapters-demo1
 
 build start_chapters-demo12.exe: phony c++_start/start_chapters/start_chapters-demo12.exe
 
+build start_chapters-demo13: phony c++_start/start_chapters/start_chapters-demo13.exe
+
+build start_chapters-demo13.exe: phony c++_start/start_chapters/start_chapters-demo13.exe
+
+build start_chapters-demo14: phony c++_start/start_chapters/start_chapters-demo14.exe
+
+build start_chapters-demo14.exe: phony c++_start/start_chapters/start_chapters-demo14.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -663,7 +739,7 @@ build c++_start/all: phony c++_start/start_chapters/all
 #############################################
 # Folder: C:/资料/c++_repo/cmake-build-debug/c++_start/start_chapters
 
-build c++_start/start_chapters/all: phony c++_start/start_chapters/start_chapters-demo01.exe c++_start/start_chapters/start_chapters-demo02.exe c++_start/start_chapters/start_chapters-demo03.exe c++_start/start_chapters/start_chapters-demo04.exe c++_start/start_chapters/start_chapters-demo05.exe c++_start/start_chapters/start_chapters-demo06.exe c++_start/start_chapters/start_chapters-demo07.exe c++_start/start_chapters/start_chapters-demo08.exe c++_start/start_chapters/start_chapters-demo09.exe c++_start/start_chapters/start_chapters-demo10.exe c++_start/start_chapters/start_chapters-demo11.exe c++_start/start_chapters/start_chapters-demo12.exe
+build c++_start/start_chapters/all: phony c++_start/start_chapters/start_chapters-demo01.exe c++_start/start_chapters/start_chapters-demo02.exe c++_start/start_chapters/start_chapters-demo03.exe c++_start/start_chapters/start_chapters-demo04.exe c++_start/start_chapters/start_chapters-demo05.exe c++_start/start_chapters/start_chapters-demo06.exe c++_start/start_chapters/start_chapters-demo07.exe c++_start/start_chapters/start_chapters-demo08.exe c++_start/start_chapters/start_chapters-demo09.exe c++_start/start_chapters/start_chapters-demo10.exe c++_start/start_chapters/start_chapters-demo11.exe c++_start/start_chapters/start_chapters-demo12.exe c++_start/start_chapters/start_chapters-demo13.exe c++_start/start_chapters/start_chapters-demo14.exe
 
 # =============================================================================
 
