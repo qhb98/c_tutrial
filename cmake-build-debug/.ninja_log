@@ -1,6 +1,7 @@
 # ninja log v5
 1	395	7092027407426678	c++_start/CMakeFiles/c++_start-demo01.dir/demo01.cpp.obj	f9d5f9e7b8424981
 401	520	7092027408622412	c++_start/c++_start-demo01.exe	567a30e2f9cd2de9
+4	484	7093245808911857	c++_start/start_chapters/CMakeFiles/start_chapters-demo15.dir/demo15.cpp.obj	8ab9af822860c997
 9	689	7092040265459344	c++_start/start_chapters/CMakeFiles/start_chapters-demo01.dir/demo01.cpp.obj	774a35e3ef69f754
 4	811	7092259840807398	c++_start/start_chapters/CMakeFiles/start_chapters-demo10.dir/demo10.cpp.obj	4dc65a4e2030fae0
 690	815	7092040266695038	c++_start/start_chapters/start_chapters-demo01.exe	fa1d66f59cd0cee1
@@ -22,4 +23,25 @@
 3	553	7092361430546064	c++_start/start_chapters/CMakeFiles/start_chapters-demo12.dir/demo12.cpp.obj	c51d3b4ef396e3eb
 554	690	7092361431867782	c++_start/start_chapters/start_chapters-demo12.exe	2c0e8c12e0b45c08
 5	554	7092378261797550	c++_start/start_chapters/CMakeFiles/start_chapters-demo01.dir/demo13.cpp.obj	6a6a3677b1b0bb39
+501	632	7093229326692105	c++_start/start_chapters/start_chapters-demo14.exe	c1c768a18db5601b
 1	610	7092378541280812	c++_start/start_chapters/CMakeFiles/start_chapters-demo13.dir/demo13.cpp.obj	f064f6fd4570a0ea
+3	732	7094040935121401	c++_start/start_chapters/CMakeFiles/start_chapters-demo16.dir/demo16.cpp.obj	a4b3b56d39db9350
+8	501	7093229325418930	c++_start/start_chapters/CMakeFiles/start_chapters-demo14.dir/demo14.cpp.obj	4c9c02e03fa20056
+485	625	7093245810268484	c++_start/start_chapters/start_chapters-demo15.exe	ace45cd9aab85e9c
+733	975	7094040937431977	c++_start/start_chapters/start_chapters-demo16.exe	595ed123576b071d
+1	1182	7098903171439109	c++_start/start_chapters/CMakeFiles/start_chapters-demo19.dir/demo19.cpp.obj	13312f5be56a8c68
+479	606	7098955549821601	c++_start/start_chapters/start_chapters-demo22.exe	def2815cde4ab70
+1183	1650	7098903176088193	c++_start/start_chapters/start_chapters-demo19.exe	203893de6c63262b
+4	479	7098955548611127	c++_start/start_chapters/CMakeFiles/start_chapters-demo22.dir/demo22.cpp.obj	1db9fd72b329d64f
+2	609	7099273824132211	c++_start/start_chapters/CMakeFiles/start_chapters-demo18.dir/demo18.cpp.obj	cb0cada97cb65c87
+609	783	7099273825836089	c++_start/start_chapters/start_chapters-demo18.exe	f49f282cbea87c33
+19	427	7099273885954852	c++_start/start_chapters/CMakeFiles/start_chapters-demo18.dir/demo18.cpp.obj	cb0cada97cb65c87
+428	536	7099273887007029	c++_start/start_chapters/start_chapters-demo18.exe	f49f282cbea87c33
+3	448	7099274893907599	c++_start/start_chapters/CMakeFiles/start_chapters-demo18.dir/demo18.cpp.obj	cb0cada97cb65c87
+448	560	7099274894961806	c++_start/start_chapters/start_chapters-demo18.exe	f49f282cbea87c33
+3	413	7099275628617887	c++_start/start_chapters/CMakeFiles/start_chapters-demo18.dir/demo18.cpp.obj	cb0cada97cb65c87
+414	528	7099275629731558	c++_start/start_chapters/start_chapters-demo18.exe	f49f282cbea87c33
+6	411	7099275756512301	c++_start/start_chapters/CMakeFiles/start_chapters-demo18.dir/demo18.cpp.obj	cb0cada97cb65c87
+411	531	7099275757657079	c++_start/start_chapters/start_chapters-demo18.exe	f49f282cbea87c33
+4	452	7099276901184066	c++_start/start_chapters/CMakeFiles/start_chapters-demo18.dir/demo18.cpp.obj	cb0cada97cb65c87
+453	576	7099276902367669	c++_start/start_chapters/start_chapters-demo18.exe	f49f282cbea87c33
