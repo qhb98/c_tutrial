@@ -2,16 +2,77 @@
 // Created by 26513 on 2023/7/1.
 //
 
-// æž„é€ å‡½æ•°çš„åˆ†ç±»åŠè°ƒç”¨
-// ä¸¤ç§åˆ†ç±»æ–¹å¼, æŒ‰å‚æ•°åˆ†ä¸º æœ‰å‚æž„é€ å’Œæ— å‚æž„é€ , æŒ‰ç±»åž‹åˆ†ä¸º æ™®é€šæž„é€ å’Œæ‹·è´æž„é€ 
-// ä¸‰ç§è°ƒç”¨æ–¹å¼, æ‹¬å·æ³• æ˜¾ç¤ºæ³• éšå¼è½¬æ¢æ³•
+// ¹¹Ôìº¯ÊýµÄ·ÖÀà¼°µ÷ÓÃ
+// Á½ÖÖ·ÖÀà·½Ê½, °´²ÎÊý·ÖÎª ÓÐ²Î¹¹ÔìºÍÎÞ²Î¹¹Ôì, °´ÀàÐÍ·ÖÎª ÆÕÍ¨¹¹ÔìºÍ¿½±´¹¹Ôì
+// ÈýÖÖµ÷ÓÃ·½Ê½, À¨ºÅ·¨ ÏÔÊ¾·¨ ÒþÊ½×ª»»·¨
 
 #include "iostream"
 
 using namespace std;
 
+class Person {
+public:
+    // personµÄÎÞ²Î¹¹Ôìº¯Êý
+    Person() {
+        cout << "Person µÄÎÞ²Î¹¹Ôìº¯Êýµ÷ÓÃ. " << endl;
+    }
+
+    // personµÄÓÐ²Î¹¹Ôìº¯Êý
+    Person(int a) {
+        age = a;
+        cout << "Person µÄÓÐ²Î¹¹Ôìº¯Êýµ÷ÓÃ." << endl;
+    }
+
+    //
+    ~Person() {
+        cout << "Person µÄÎö¹¹º¯Êýµ÷ÓÃ. " << endl;
+    }
+
+    // ¿½±´¹¹Ôìº¯Êý
+    Person(const Person &p) {
+        // ½«´«ÈëµÄÈËÉíÉÏµÄËùÓÐÊôÐÔ¶¼¿½±´µ½ÎÒÉíÉÏ
+        age = p.age;
+    }
+
+    int age = 10;
+
+};
+
+// µ÷ÓÃ
+void test01() {
+    // 1. À¨ºÅ·¨
+    Person p1; // Ä¬ÈÏ¹¹Ôìº¯Êýµ÷ÓÃ
+    Person p2(10); // ÓÐ²Î¹¹Ôìº¯Êýµ÷ÓÃ
+    Person p3(p2); // ¿½±´ºó¹¹Ôìº¯Êýµ÷ÓÃ
+
+    // ×¢ÒâÊÂÏî: Ä¬ÈÏµ÷ÓÃ¹¹Ôìº¯ÊýµÄÊ±ºò²»Òª¼Ó ()
+    // ÒòÎªÏÂÃæÕâÐÐ´úÂë, ±àÒëÆ÷»áÈÏÎªÊÇÒ»¸öº¯ÊýµÄÉùÃ÷
+//    Person p1();
+
+    cout << p2.age << endl;
+    cout << p3.age << endl;
+
+    // 2. ÏÔÊ¾·¨
+    Person p4;  // ÎÞ²Î¹¹Ôì
+    Person p5 = Person(10); // ÓÐ²Î¹¹Ôì
+    Person p6 = Person(p5); // ¿½±´¹¹Ôì
+
+    // ÄäÃû¶ÔÏó, ÌØµãÊÇµ±Ç°ÐÐÖ´ÐÐ½áÊøºó, ÏµÍ³»áÁ¢¼´»ØÊÕµôÄäÃû¶ÔÏó
+//    Person(10);
+//    cout << "aaa" << endl;
+
+    // ×¢ÒâÊÂÏî: ²»ÒªÀûÓÃ¿½±´¹¹Ôìº¯ÊýÈ¥³õÊ¼»¯ÄäÃû¶ÔÏó, ÒòÎª±àÒëÆ÷»áÈÏÎªPerson(p6) == Person p6; ÊÇÔÚÊµÀý»¯¶ÔÏó
+//    Person(p6);
+
+    // 3. ÒþÊ½×ª»»·¨
+    Person p7 = 10; // Ïàµ±ÓÚPerson p7 = Person(10);
+    Person p8 = p6; // ¿½±´¹¹Ôì
+
+}
+
 int main() {
+    test01();
 
-
+    system("pause");
     return 0;
 }

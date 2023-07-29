@@ -911,6 +911,482 @@ build c++_start/start_chapters/start_chapters-demo23.exe: CXX_EXECUTABLE_LINKER_
   TARGET_IMPLIB = c++_start\start_chapters\libstart_chapters-demo23.dll.a
   TARGET_PDB = start_chapters-demo23.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target start_chapters-demo24
+
+
+#############################################
+# Order-only phony target for start_chapters-demo24
+
+build cmake_object_order_depends_target_start_chapters-demo24: phony || c++_start/start_chapters/CMakeFiles/start_chapters-demo24.dir
+
+build c++_start/start_chapters/CMakeFiles/start_chapters-demo24.dir/demo24.cpp.obj: CXX_COMPILER__start_chapters-demo24_Debug C$:/资料/c++_repo/c++_start/start_chapters/demo24.cpp || cmake_object_order_depends_target_start_chapters-demo24
+  DEP_FILE = c++_start\start_chapters\CMakeFiles\start_chapters-demo24.dir\demo24.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/资料/c++_repo/c++_start/. -IC:/资料/c++_repo/c++_start/start_chapters/.
+  OBJECT_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo24.dir
+  OBJECT_FILE_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo24.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target start_chapters-demo24
+
+
+#############################################
+# Link the executable c++_start\start_chapters\start_chapters-demo24.exe
+
+build c++_start/start_chapters/start_chapters-demo24.exe: CXX_EXECUTABLE_LINKER__start_chapters-demo24_Debug c++_start/start_chapters/CMakeFiles/start_chapters-demo24.dir/demo24.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo24.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = c++_start\start_chapters\start_chapters-demo24.exe
+  TARGET_IMPLIB = c++_start\start_chapters\libstart_chapters-demo24.dll.a
+  TARGET_PDB = start_chapters-demo24.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target start_chapters-demo25
+
+
+#############################################
+# Order-only phony target for start_chapters-demo25
+
+build cmake_object_order_depends_target_start_chapters-demo25: phony || c++_start/start_chapters/CMakeFiles/start_chapters-demo25.dir
+
+build c++_start/start_chapters/CMakeFiles/start_chapters-demo25.dir/demo25.cpp.obj: CXX_COMPILER__start_chapters-demo25_Debug C$:/资料/c++_repo/c++_start/start_chapters/demo25.cpp || cmake_object_order_depends_target_start_chapters-demo25
+  DEP_FILE = c++_start\start_chapters\CMakeFiles\start_chapters-demo25.dir\demo25.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/资料/c++_repo/c++_start/. -IC:/资料/c++_repo/c++_start/start_chapters/.
+  OBJECT_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo25.dir
+  OBJECT_FILE_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo25.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target start_chapters-demo25
+
+
+#############################################
+# Link the executable c++_start\start_chapters\start_chapters-demo25.exe
+
+build c++_start/start_chapters/start_chapters-demo25.exe: CXX_EXECUTABLE_LINKER__start_chapters-demo25_Debug c++_start/start_chapters/CMakeFiles/start_chapters-demo25.dir/demo25.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo25.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = c++_start\start_chapters\start_chapters-demo25.exe
+  TARGET_IMPLIB = c++_start\start_chapters\libstart_chapters-demo25.dll.a
+  TARGET_PDB = start_chapters-demo25.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target start_chapters-demo26
+
+
+#############################################
+# Order-only phony target for start_chapters-demo26
+
+build cmake_object_order_depends_target_start_chapters-demo26: phony || c++_start/start_chapters/CMakeFiles/start_chapters-demo26.dir
+
+build c++_start/start_chapters/CMakeFiles/start_chapters-demo26.dir/demo26.cpp.obj: CXX_COMPILER__start_chapters-demo26_Debug C$:/资料/c++_repo/c++_start/start_chapters/demo26.cpp || cmake_object_order_depends_target_start_chapters-demo26
+  DEP_FILE = c++_start\start_chapters\CMakeFiles\start_chapters-demo26.dir\demo26.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/资料/c++_repo/c++_start/. -IC:/资料/c++_repo/c++_start/start_chapters/.
+  OBJECT_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo26.dir
+  OBJECT_FILE_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo26.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target start_chapters-demo26
+
+
+#############################################
+# Link the executable c++_start\start_chapters\start_chapters-demo26.exe
+
+build c++_start/start_chapters/start_chapters-demo26.exe: CXX_EXECUTABLE_LINKER__start_chapters-demo26_Debug c++_start/start_chapters/CMakeFiles/start_chapters-demo26.dir/demo26.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo26.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = c++_start\start_chapters\start_chapters-demo26.exe
+  TARGET_IMPLIB = c++_start\start_chapters\libstart_chapters-demo26.dll.a
+  TARGET_PDB = start_chapters-demo26.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target start_chapters-demo27
+
+
+#############################################
+# Order-only phony target for start_chapters-demo27
+
+build cmake_object_order_depends_target_start_chapters-demo27: phony || c++_start/start_chapters/CMakeFiles/start_chapters-demo27.dir
+
+build c++_start/start_chapters/CMakeFiles/start_chapters-demo27.dir/demo27.cpp.obj: CXX_COMPILER__start_chapters-demo27_Debug C$:/资料/c++_repo/c++_start/start_chapters/demo27.cpp || cmake_object_order_depends_target_start_chapters-demo27
+  DEP_FILE = c++_start\start_chapters\CMakeFiles\start_chapters-demo27.dir\demo27.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/资料/c++_repo/c++_start/. -IC:/资料/c++_repo/c++_start/start_chapters/.
+  OBJECT_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo27.dir
+  OBJECT_FILE_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo27.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target start_chapters-demo27
+
+
+#############################################
+# Link the executable c++_start\start_chapters\start_chapters-demo27.exe
+
+build c++_start/start_chapters/start_chapters-demo27.exe: CXX_EXECUTABLE_LINKER__start_chapters-demo27_Debug c++_start/start_chapters/CMakeFiles/start_chapters-demo27.dir/demo27.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo27.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = c++_start\start_chapters\start_chapters-demo27.exe
+  TARGET_IMPLIB = c++_start\start_chapters\libstart_chapters-demo27.dll.a
+  TARGET_PDB = start_chapters-demo27.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target start_chapters-demo28
+
+
+#############################################
+# Order-only phony target for start_chapters-demo28
+
+build cmake_object_order_depends_target_start_chapters-demo28: phony || c++_start/start_chapters/CMakeFiles/start_chapters-demo28.dir
+
+build c++_start/start_chapters/CMakeFiles/start_chapters-demo28.dir/demo28.cpp.obj: CXX_COMPILER__start_chapters-demo28_Debug C$:/资料/c++_repo/c++_start/start_chapters/demo28.cpp || cmake_object_order_depends_target_start_chapters-demo28
+  DEP_FILE = c++_start\start_chapters\CMakeFiles\start_chapters-demo28.dir\demo28.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/资料/c++_repo/c++_start/. -IC:/资料/c++_repo/c++_start/start_chapters/.
+  OBJECT_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo28.dir
+  OBJECT_FILE_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo28.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target start_chapters-demo28
+
+
+#############################################
+# Link the executable c++_start\start_chapters\start_chapters-demo28.exe
+
+build c++_start/start_chapters/start_chapters-demo28.exe: CXX_EXECUTABLE_LINKER__start_chapters-demo28_Debug c++_start/start_chapters/CMakeFiles/start_chapters-demo28.dir/demo28.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo28.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = c++_start\start_chapters\start_chapters-demo28.exe
+  TARGET_IMPLIB = c++_start\start_chapters\libstart_chapters-demo28.dll.a
+  TARGET_PDB = start_chapters-demo28.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target start_chapters-demo29
+
+
+#############################################
+# Order-only phony target for start_chapters-demo29
+
+build cmake_object_order_depends_target_start_chapters-demo29: phony || c++_start/start_chapters/CMakeFiles/start_chapters-demo29.dir
+
+build c++_start/start_chapters/CMakeFiles/start_chapters-demo29.dir/demo29.cpp.obj: CXX_COMPILER__start_chapters-demo29_Debug C$:/资料/c++_repo/c++_start/start_chapters/demo29.cpp || cmake_object_order_depends_target_start_chapters-demo29
+  DEP_FILE = c++_start\start_chapters\CMakeFiles\start_chapters-demo29.dir\demo29.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/资料/c++_repo/c++_start/. -IC:/资料/c++_repo/c++_start/start_chapters/.
+  OBJECT_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo29.dir
+  OBJECT_FILE_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo29.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target start_chapters-demo29
+
+
+#############################################
+# Link the executable c++_start\start_chapters\start_chapters-demo29.exe
+
+build c++_start/start_chapters/start_chapters-demo29.exe: CXX_EXECUTABLE_LINKER__start_chapters-demo29_Debug c++_start/start_chapters/CMakeFiles/start_chapters-demo29.dir/demo29.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo29.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = c++_start\start_chapters\start_chapters-demo29.exe
+  TARGET_IMPLIB = c++_start\start_chapters\libstart_chapters-demo29.dll.a
+  TARGET_PDB = start_chapters-demo29.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target start_chapters-demo30
+
+
+#############################################
+# Order-only phony target for start_chapters-demo30
+
+build cmake_object_order_depends_target_start_chapters-demo30: phony || c++_start/start_chapters/CMakeFiles/start_chapters-demo30.dir
+
+build c++_start/start_chapters/CMakeFiles/start_chapters-demo30.dir/demo30.cpp.obj: CXX_COMPILER__start_chapters-demo30_Debug C$:/资料/c++_repo/c++_start/start_chapters/demo30.cpp || cmake_object_order_depends_target_start_chapters-demo30
+  DEP_FILE = c++_start\start_chapters\CMakeFiles\start_chapters-demo30.dir\demo30.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/资料/c++_repo/c++_start/. -IC:/资料/c++_repo/c++_start/start_chapters/.
+  OBJECT_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo30.dir
+  OBJECT_FILE_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo30.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target start_chapters-demo30
+
+
+#############################################
+# Link the executable c++_start\start_chapters\start_chapters-demo30.exe
+
+build c++_start/start_chapters/start_chapters-demo30.exe: CXX_EXECUTABLE_LINKER__start_chapters-demo30_Debug c++_start/start_chapters/CMakeFiles/start_chapters-demo30.dir/demo30.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo30.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = c++_start\start_chapters\start_chapters-demo30.exe
+  TARGET_IMPLIB = c++_start\start_chapters\libstart_chapters-demo30.dll.a
+  TARGET_PDB = start_chapters-demo30.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target start_chapters-demo31
+
+
+#############################################
+# Order-only phony target for start_chapters-demo31
+
+build cmake_object_order_depends_target_start_chapters-demo31: phony || c++_start/start_chapters/CMakeFiles/start_chapters-demo31.dir
+
+build c++_start/start_chapters/CMakeFiles/start_chapters-demo31.dir/demo31.cpp.obj: CXX_COMPILER__start_chapters-demo31_Debug C$:/资料/c++_repo/c++_start/start_chapters/demo31.cpp || cmake_object_order_depends_target_start_chapters-demo31
+  DEP_FILE = c++_start\start_chapters\CMakeFiles\start_chapters-demo31.dir\demo31.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/资料/c++_repo/c++_start/. -IC:/资料/c++_repo/c++_start/start_chapters/.
+  OBJECT_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo31.dir
+  OBJECT_FILE_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo31.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target start_chapters-demo31
+
+
+#############################################
+# Link the executable c++_start\start_chapters\start_chapters-demo31.exe
+
+build c++_start/start_chapters/start_chapters-demo31.exe: CXX_EXECUTABLE_LINKER__start_chapters-demo31_Debug c++_start/start_chapters/CMakeFiles/start_chapters-demo31.dir/demo31.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo31.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = c++_start\start_chapters\start_chapters-demo31.exe
+  TARGET_IMPLIB = c++_start\start_chapters\libstart_chapters-demo31.dll.a
+  TARGET_PDB = start_chapters-demo31.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target start_chapters-demo32
+
+
+#############################################
+# Order-only phony target for start_chapters-demo32
+
+build cmake_object_order_depends_target_start_chapters-demo32: phony || c++_start/start_chapters/CMakeFiles/start_chapters-demo32.dir
+
+build c++_start/start_chapters/CMakeFiles/start_chapters-demo32.dir/demo32.cpp.obj: CXX_COMPILER__start_chapters-demo32_Debug C$:/资料/c++_repo/c++_start/start_chapters/demo32.cpp || cmake_object_order_depends_target_start_chapters-demo32
+  DEP_FILE = c++_start\start_chapters\CMakeFiles\start_chapters-demo32.dir\demo32.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/资料/c++_repo/c++_start/. -IC:/资料/c++_repo/c++_start/start_chapters/.
+  OBJECT_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo32.dir
+  OBJECT_FILE_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo32.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target start_chapters-demo32
+
+
+#############################################
+# Link the executable c++_start\start_chapters\start_chapters-demo32.exe
+
+build c++_start/start_chapters/start_chapters-demo32.exe: CXX_EXECUTABLE_LINKER__start_chapters-demo32_Debug c++_start/start_chapters/CMakeFiles/start_chapters-demo32.dir/demo32.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo32.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = c++_start\start_chapters\start_chapters-demo32.exe
+  TARGET_IMPLIB = c++_start\start_chapters\libstart_chapters-demo32.dll.a
+  TARGET_PDB = start_chapters-demo32.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target start_chapters-demo33
+
+
+#############################################
+# Order-only phony target for start_chapters-demo33
+
+build cmake_object_order_depends_target_start_chapters-demo33: phony || c++_start/start_chapters/CMakeFiles/start_chapters-demo33.dir
+
+build c++_start/start_chapters/CMakeFiles/start_chapters-demo33.dir/demo33.cpp.obj: CXX_COMPILER__start_chapters-demo33_Debug C$:/资料/c++_repo/c++_start/start_chapters/demo33.cpp || cmake_object_order_depends_target_start_chapters-demo33
+  DEP_FILE = c++_start\start_chapters\CMakeFiles\start_chapters-demo33.dir\demo33.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/资料/c++_repo/c++_start/. -IC:/资料/c++_repo/c++_start/start_chapters/.
+  OBJECT_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo33.dir
+  OBJECT_FILE_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo33.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target start_chapters-demo33
+
+
+#############################################
+# Link the executable c++_start\start_chapters\start_chapters-demo33.exe
+
+build c++_start/start_chapters/start_chapters-demo33.exe: CXX_EXECUTABLE_LINKER__start_chapters-demo33_Debug c++_start/start_chapters/CMakeFiles/start_chapters-demo33.dir/demo33.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo33.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = c++_start\start_chapters\start_chapters-demo33.exe
+  TARGET_IMPLIB = c++_start\start_chapters\libstart_chapters-demo33.dll.a
+  TARGET_PDB = start_chapters-demo33.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target start_chapters-demo34
+
+
+#############################################
+# Order-only phony target for start_chapters-demo34
+
+build cmake_object_order_depends_target_start_chapters-demo34: phony || c++_start/start_chapters/CMakeFiles/start_chapters-demo34.dir
+
+build c++_start/start_chapters/CMakeFiles/start_chapters-demo34.dir/demo34.cpp.obj: CXX_COMPILER__start_chapters-demo34_Debug C$:/资料/c++_repo/c++_start/start_chapters/demo34.cpp || cmake_object_order_depends_target_start_chapters-demo34
+  DEP_FILE = c++_start\start_chapters\CMakeFiles\start_chapters-demo34.dir\demo34.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/资料/c++_repo/c++_start/. -IC:/资料/c++_repo/c++_start/start_chapters/.
+  OBJECT_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo34.dir
+  OBJECT_FILE_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo34.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target start_chapters-demo34
+
+
+#############################################
+# Link the executable c++_start\start_chapters\start_chapters-demo34.exe
+
+build c++_start/start_chapters/start_chapters-demo34.exe: CXX_EXECUTABLE_LINKER__start_chapters-demo34_Debug c++_start/start_chapters/CMakeFiles/start_chapters-demo34.dir/demo34.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo34.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = c++_start\start_chapters\start_chapters-demo34.exe
+  TARGET_IMPLIB = c++_start\start_chapters\libstart_chapters-demo34.dll.a
+  TARGET_PDB = start_chapters-demo34.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target start_chapters-demo35
+
+
+#############################################
+# Order-only phony target for start_chapters-demo35
+
+build cmake_object_order_depends_target_start_chapters-demo35: phony || c++_start/start_chapters/CMakeFiles/start_chapters-demo35.dir
+
+build c++_start/start_chapters/CMakeFiles/start_chapters-demo35.dir/demo35.cpp.obj: CXX_COMPILER__start_chapters-demo35_Debug C$:/资料/c++_repo/c++_start/start_chapters/demo35.cpp || cmake_object_order_depends_target_start_chapters-demo35
+  DEP_FILE = c++_start\start_chapters\CMakeFiles\start_chapters-demo35.dir\demo35.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/资料/c++_repo/c++_start/. -IC:/资料/c++_repo/c++_start/start_chapters/.
+  OBJECT_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo35.dir
+  OBJECT_FILE_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo35.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target start_chapters-demo35
+
+
+#############################################
+# Link the executable c++_start\start_chapters\start_chapters-demo35.exe
+
+build c++_start/start_chapters/start_chapters-demo35.exe: CXX_EXECUTABLE_LINKER__start_chapters-demo35_Debug c++_start/start_chapters/CMakeFiles/start_chapters-demo35.dir/demo35.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo35.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = c++_start\start_chapters\start_chapters-demo35.exe
+  TARGET_IMPLIB = c++_start\start_chapters\libstart_chapters-demo35.dll.a
+  TARGET_PDB = start_chapters-demo35.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target start_chapters-demo36
+
+
+#############################################
+# Order-only phony target for start_chapters-demo36
+
+build cmake_object_order_depends_target_start_chapters-demo36: phony || c++_start/start_chapters/CMakeFiles/start_chapters-demo36.dir
+
+build c++_start/start_chapters/CMakeFiles/start_chapters-demo36.dir/demo36.cpp.obj: CXX_COMPILER__start_chapters-demo36_Debug C$:/资料/c++_repo/c++_start/start_chapters/demo36.cpp || cmake_object_order_depends_target_start_chapters-demo36
+  DEP_FILE = c++_start\start_chapters\CMakeFiles\start_chapters-demo36.dir\demo36.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/资料/c++_repo/c++_start/. -IC:/资料/c++_repo/c++_start/start_chapters/.
+  OBJECT_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo36.dir
+  OBJECT_FILE_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo36.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target start_chapters-demo36
+
+
+#############################################
+# Link the executable c++_start\start_chapters\start_chapters-demo36.exe
+
+build c++_start/start_chapters/start_chapters-demo36.exe: CXX_EXECUTABLE_LINKER__start_chapters-demo36_Debug c++_start/start_chapters/CMakeFiles/start_chapters-demo36.dir/demo36.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo36.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = c++_start\start_chapters\start_chapters-demo36.exe
+  TARGET_IMPLIB = c++_start\start_chapters\libstart_chapters-demo36.dll.a
+  TARGET_PDB = start_chapters-demo36.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target start_chapters-demo37
+
+
+#############################################
+# Order-only phony target for start_chapters-demo37
+
+build cmake_object_order_depends_target_start_chapters-demo37: phony || c++_start/start_chapters/CMakeFiles/start_chapters-demo37.dir
+
+build c++_start/start_chapters/CMakeFiles/start_chapters-demo37.dir/demo37.cpp.obj: CXX_COMPILER__start_chapters-demo37_Debug C$:/资料/c++_repo/c++_start/start_chapters/demo37.cpp || cmake_object_order_depends_target_start_chapters-demo37
+  DEP_FILE = c++_start\start_chapters\CMakeFiles\start_chapters-demo37.dir\demo37.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/资料/c++_repo/c++_start/. -IC:/资料/c++_repo/c++_start/start_chapters/.
+  OBJECT_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo37.dir
+  OBJECT_FILE_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo37.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target start_chapters-demo37
+
+
+#############################################
+# Link the executable c++_start\start_chapters\start_chapters-demo37.exe
+
+build c++_start/start_chapters/start_chapters-demo37.exe: CXX_EXECUTABLE_LINKER__start_chapters-demo37_Debug c++_start/start_chapters/CMakeFiles/start_chapters-demo37.dir/demo37.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = c++_start\start_chapters\CMakeFiles\start_chapters-demo37.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = c++_start\start_chapters\start_chapters-demo37.exe
+  TARGET_IMPLIB = c++_start\start_chapters\libstart_chapters-demo37.dll.a
+  TARGET_PDB = start_chapters-demo37.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -933,6 +1409,34 @@ build c++_start/start_chapters/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
   restat = 1
 
 build c++_start/start_chapters/rebuild_cache: phony c++_start/start_chapters/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/资料/c++_repo/c++_start/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build c++_start/study_cmake/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\资料\c++_repo\cmake-build-debug\c++_start\study_cmake && "C:\app\CLion 2023.1.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build c++_start/study_cmake/edit_cache: phony c++_start/study_cmake/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build c++_start/study_cmake/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\资料\c++_repo\cmake-build-debug\c++_start\study_cmake && "C:\app\CLion 2023.1.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\资料\c++_repo -BC:\资料\c++_repo\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build c++_start/study_cmake/rebuild_cache: phony c++_start/study_cmake/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
@@ -1059,6 +1563,62 @@ build start_chapters-demo23: phony c++_start/start_chapters/start_chapters-demo2
 
 build start_chapters-demo23.exe: phony c++_start/start_chapters/start_chapters-demo23.exe
 
+build start_chapters-demo24: phony c++_start/start_chapters/start_chapters-demo24.exe
+
+build start_chapters-demo24.exe: phony c++_start/start_chapters/start_chapters-demo24.exe
+
+build start_chapters-demo25: phony c++_start/start_chapters/start_chapters-demo25.exe
+
+build start_chapters-demo25.exe: phony c++_start/start_chapters/start_chapters-demo25.exe
+
+build start_chapters-demo26: phony c++_start/start_chapters/start_chapters-demo26.exe
+
+build start_chapters-demo26.exe: phony c++_start/start_chapters/start_chapters-demo26.exe
+
+build start_chapters-demo27: phony c++_start/start_chapters/start_chapters-demo27.exe
+
+build start_chapters-demo27.exe: phony c++_start/start_chapters/start_chapters-demo27.exe
+
+build start_chapters-demo28: phony c++_start/start_chapters/start_chapters-demo28.exe
+
+build start_chapters-demo28.exe: phony c++_start/start_chapters/start_chapters-demo28.exe
+
+build start_chapters-demo29: phony c++_start/start_chapters/start_chapters-demo29.exe
+
+build start_chapters-demo29.exe: phony c++_start/start_chapters/start_chapters-demo29.exe
+
+build start_chapters-demo30: phony c++_start/start_chapters/start_chapters-demo30.exe
+
+build start_chapters-demo30.exe: phony c++_start/start_chapters/start_chapters-demo30.exe
+
+build start_chapters-demo31: phony c++_start/start_chapters/start_chapters-demo31.exe
+
+build start_chapters-demo31.exe: phony c++_start/start_chapters/start_chapters-demo31.exe
+
+build start_chapters-demo32: phony c++_start/start_chapters/start_chapters-demo32.exe
+
+build start_chapters-demo32.exe: phony c++_start/start_chapters/start_chapters-demo32.exe
+
+build start_chapters-demo33: phony c++_start/start_chapters/start_chapters-demo33.exe
+
+build start_chapters-demo33.exe: phony c++_start/start_chapters/start_chapters-demo33.exe
+
+build start_chapters-demo34: phony c++_start/start_chapters/start_chapters-demo34.exe
+
+build start_chapters-demo34.exe: phony c++_start/start_chapters/start_chapters-demo34.exe
+
+build start_chapters-demo35: phony c++_start/start_chapters/start_chapters-demo35.exe
+
+build start_chapters-demo35.exe: phony c++_start/start_chapters/start_chapters-demo35.exe
+
+build start_chapters-demo36: phony c++_start/start_chapters/start_chapters-demo36.exe
+
+build start_chapters-demo36.exe: phony c++_start/start_chapters/start_chapters-demo36.exe
+
+build start_chapters-demo37: phony c++_start/start_chapters/start_chapters-demo37.exe
+
+build start_chapters-demo37.exe: phony c++_start/start_chapters/start_chapters-demo37.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -1074,14 +1634,21 @@ build all: phony c___repo.exe c++_start/all qt/all
 #############################################
 # Folder: C:/资料/c++_repo/cmake-build-debug/c++_start
 
-build c++_start/all: phony c++_start/start_chapters/all
+build c++_start/all: phony c++_start/start_chapters/all c++_start/study_cmake/all
 
 # =============================================================================
 
 #############################################
 # Folder: C:/资料/c++_repo/cmake-build-debug/c++_start/start_chapters
 
-build c++_start/start_chapters/all: phony c++_start/start_chapters/start_chapters-demo01.exe c++_start/start_chapters/start_chapters-demo02.exe c++_start/start_chapters/start_chapters-demo03.exe c++_start/start_chapters/start_chapters-demo04.exe c++_start/start_chapters/start_chapters-demo05.exe c++_start/start_chapters/start_chapters-demo06.exe c++_start/start_chapters/start_chapters-demo07.exe c++_start/start_chapters/start_chapters-demo08.exe c++_start/start_chapters/start_chapters-demo09.exe c++_start/start_chapters/start_chapters-demo10.exe c++_start/start_chapters/start_chapters-demo11.exe c++_start/start_chapters/start_chapters-demo12.exe c++_start/start_chapters/start_chapters-demo13.exe c++_start/start_chapters/start_chapters-demo14.exe c++_start/start_chapters/start_chapters-demo15.exe c++_start/start_chapters/start_chapters-demo16.exe c++_start/start_chapters/start_chapters-demo17.exe c++_start/start_chapters/start_chapters-demo18.exe c++_start/start_chapters/start_chapters-demo19.exe c++_start/start_chapters/start_chapters-demo20.exe c++_start/start_chapters/start_chapters-demo21.exe c++_start/start_chapters/start_chapters-demo22.exe c++_start/start_chapters/start_chapters-demo23.exe
+build c++_start/start_chapters/all: phony c++_start/start_chapters/start_chapters-demo01.exe c++_start/start_chapters/start_chapters-demo02.exe c++_start/start_chapters/start_chapters-demo03.exe c++_start/start_chapters/start_chapters-demo04.exe c++_start/start_chapters/start_chapters-demo05.exe c++_start/start_chapters/start_chapters-demo06.exe c++_start/start_chapters/start_chapters-demo07.exe c++_start/start_chapters/start_chapters-demo08.exe c++_start/start_chapters/start_chapters-demo09.exe c++_start/start_chapters/start_chapters-demo10.exe c++_start/start_chapters/start_chapters-demo11.exe c++_start/start_chapters/start_chapters-demo12.exe c++_start/start_chapters/start_chapters-demo13.exe c++_start/start_chapters/start_chapters-demo14.exe c++_start/start_chapters/start_chapters-demo15.exe c++_start/start_chapters/start_chapters-demo16.exe c++_start/start_chapters/start_chapters-demo17.exe c++_start/start_chapters/start_chapters-demo18.exe c++_start/start_chapters/start_chapters-demo19.exe c++_start/start_chapters/start_chapters-demo20.exe c++_start/start_chapters/start_chapters-demo21.exe c++_start/start_chapters/start_chapters-demo22.exe c++_start/start_chapters/start_chapters-demo23.exe c++_start/start_chapters/start_chapters-demo24.exe c++_start/start_chapters/start_chapters-demo25.exe c++_start/start_chapters/start_chapters-demo26.exe c++_start/start_chapters/start_chapters-demo27.exe c++_start/start_chapters/start_chapters-demo28.exe c++_start/start_chapters/start_chapters-demo29.exe c++_start/start_chapters/start_chapters-demo30.exe c++_start/start_chapters/start_chapters-demo31.exe c++_start/start_chapters/start_chapters-demo32.exe c++_start/start_chapters/start_chapters-demo33.exe c++_start/start_chapters/start_chapters-demo34.exe c++_start/start_chapters/start_chapters-demo35.exe c++_start/start_chapters/start_chapters-demo36.exe c++_start/start_chapters/start_chapters-demo37.exe
+
+# =============================================================================
+
+#############################################
+# Folder: C:/资料/c++_repo/cmake-build-debug/c++_start/study_cmake
+
+build c++_start/study_cmake/all: phony
 
 # =============================================================================
 
@@ -1097,14 +1664,14 @@ build qt/all: phony
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake C$:/资料/c++_repo/CMakeLists.txt C$:/资料/c++_repo/c++_start/CMakeLists.txt C$:/资料/c++_repo/c++_start/start_chapters/CMakeLists.txt C$:/资料/c++_repo/qt/CMakeLists.txt CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake C$:/资料/c++_repo/CMakeLists.txt C$:/资料/c++_repo/c++_start/CMakeLists.txt C$:/资料/c++_repo/c++_start/start_chapters/CMakeLists.txt C$:/资料/c++_repo/c++_start/study_cmake/CMakeLists.txt C$:/资料/c++_repo/qt/CMakeLists.txt CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake C$:/资料/c++_repo/CMakeLists.txt C$:/资料/c++_repo/c++_start/CMakeLists.txt C$:/资料/c++_repo/c++_start/start_chapters/CMakeLists.txt C$:/资料/c++_repo/qt/CMakeLists.txt CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake: phony
+build C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake C$:/app/CLion$ 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake C$:/资料/c++_repo/CMakeLists.txt C$:/资料/c++_repo/c++_start/CMakeLists.txt C$:/资料/c++_repo/c++_start/start_chapters/CMakeLists.txt C$:/资料/c++_repo/c++_start/study_cmake/CMakeLists.txt C$:/资料/c++_repo/qt/CMakeLists.txt CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake: phony
 
 
 #############################################
