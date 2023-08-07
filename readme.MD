@@ -12,8 +12,6 @@ https://www.bilibili.com/video/BV1et411b73Z/?p=2&vd_source=7111d4cfa9354342c253c
 
 https://blog.csdn.net/weixin_40040107/article/details/108167589
 
-### 2. 如何在clion中使用vscode的CPP项目
-
 
 
 
