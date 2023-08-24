@@ -1,0 +1,3 @@
+"D:\Program Files\JetBrains\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\c__repo-demo16.cpp.dir/objects.a
+"D:\Program Files\JetBrains\CLion 2022.3.2\bin\mingw\bin\ar.exe" qc CMakeFiles\c__repo-demo16.cpp.dir/objects.a @CMakeFiles\c__repo-demo16.cpp.dir\objects1.rsp
+"D:\Program Files\JetBrains\CLion 2022.3.2\bin\mingw\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\c__repo-demo16.cpp.dir/objects.a -Wl,--no-whole-archive -o c__repo-demo16.cpp.exe -Wl,--out-implib,libc__repo-demo16.cpp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\c__repo-demo16.cpp.dir\linklibs.rsp

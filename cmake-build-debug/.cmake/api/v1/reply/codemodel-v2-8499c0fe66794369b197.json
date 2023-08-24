@@ -1,0 +1,542 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "c++_start",
+					"jsonFile" : "directory-c++_start-Debug-3bc1d4f8f9675403d174.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "c++_start",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46
+					]
+				},
+				{
+					"build" : "other",
+					"jsonFile" : "directory-other-Debug-dd53f3304e0f4cd779ee.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "other",
+					"targetIndexes" : 
+					[
+						47,
+						48,
+						49,
+						50
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "c___repo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo1.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo1.cpp-Debug-0dd123ced42f84fd5577.json",
+					"name" : "c__repo-demo1.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo10.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo10.cpp-Debug-995cdee77f98f7c66fe9.json",
+					"name" : "c__repo-demo10.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo11.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo11.cpp-Debug-9941dd9100f2604dfe87.json",
+					"name" : "c__repo-demo11.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo12.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo12.cpp-Debug-4308eef2b48ecb18a09a.json",
+					"name" : "c__repo-demo12.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo13.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo13.cpp-Debug-f48b534f05310cb2b1ce.json",
+					"name" : "c__repo-demo13.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo14.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo14.cpp-Debug-5a9dbc410e4e15599e8d.json",
+					"name" : "c__repo-demo14.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo15.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo15.cpp-Debug-b393c6ddf44c40ac63fb.json",
+					"name" : "c__repo-demo15.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo16.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo16.cpp-Debug-ddb78bca6c6758f86a32.json",
+					"name" : "c__repo-demo16.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo17.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo17.cpp-Debug-d865f1e708b2da046c01.json",
+					"name" : "c__repo-demo17.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo18.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo18.cpp-Debug-f26cf029036668fee130.json",
+					"name" : "c__repo-demo18.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo19.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo19.cpp-Debug-ff6f4e428b34e68f2196.json",
+					"name" : "c__repo-demo19.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo2.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo2.cpp-Debug-fc64cc3227843b6cff04.json",
+					"name" : "c__repo-demo2.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo20.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo20.cpp-Debug-75f6a2a0752e80b29f67.json",
+					"name" : "c__repo-demo20.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo21.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo21.cpp-Debug-5a3805cde53e0e5ba80f.json",
+					"name" : "c__repo-demo21.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo22.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo22.cpp-Debug-22ef9f9d315d5232df6d.json",
+					"name" : "c__repo-demo22.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo23.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo23.cpp-Debug-a6549f831621d4bd0344.json",
+					"name" : "c__repo-demo23.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo24.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo24.cpp-Debug-7e1392227e37a7f20d61.json",
+					"name" : "c__repo-demo24.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo25.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo25.cpp-Debug-d1dd4142b6f7e75484a7.json",
+					"name" : "c__repo-demo25.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo26.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo26.cpp-Debug-85a1b626380e5b6e2c03.json",
+					"name" : "c__repo-demo26.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo27.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo27.cpp-Debug-df9a6cec4dd5e570832a.json",
+					"name" : "c__repo-demo27.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo28.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo28.cpp-Debug-cc3c2ffaaf4c7c2111d5.json",
+					"name" : "c__repo-demo28.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo29.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo29.cpp-Debug-9afbb0344477f042db49.json",
+					"name" : "c__repo-demo29.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo3.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo3.cpp-Debug-21de7d0a3a23f8900d8b.json",
+					"name" : "c__repo-demo3.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo30.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo30.cpp-Debug-9be8b77ec52e55189d3e.json",
+					"name" : "c__repo-demo30.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo31.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo31.cpp-Debug-f9f15fd0556537ff6a18.json",
+					"name" : "c__repo-demo31.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo32.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo32.cpp-Debug-69a0fbf88ac803cfdf3f.json",
+					"name" : "c__repo-demo32.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo33.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo33.cpp-Debug-67d1bf1123f72cd4ddd6.json",
+					"name" : "c__repo-demo33.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo34.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo34.cpp-Debug-ee34300e931c56c7ee53.json",
+					"name" : "c__repo-demo34.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo35.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo35.cpp-Debug-ad68c3da69fc3318ce81.json",
+					"name" : "c__repo-demo35.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo36.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo36.cpp-Debug-24ae4cf86823cf13886a.json",
+					"name" : "c__repo-demo36.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo37.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo37.cpp-Debug-bb2d5cc2ce9924ea3d4f.json",
+					"name" : "c__repo-demo37.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo38.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo38.cpp-Debug-d99a17730c5476dfe2fc.json",
+					"name" : "c__repo-demo38.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo39.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo39.cpp-Debug-fe4d2bc7d693e2f9dd8f.json",
+					"name" : "c__repo-demo39.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo4.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo4.cpp-Debug-55f243767a7329698874.json",
+					"name" : "c__repo-demo4.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo40.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo40.cpp-Debug-a9837d88fe9b21baea9b.json",
+					"name" : "c__repo-demo40.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo41.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo41.cpp-Debug-8da06928389b303b4687.json",
+					"name" : "c__repo-demo41.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo42.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo42.cpp-Debug-a2e8c4883957a1825162.json",
+					"name" : "c__repo-demo42.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo43.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo43.cpp-Debug-94a257e431dd67ac3052.json",
+					"name" : "c__repo-demo43.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo44.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo44.cpp-Debug-63a206e1150c1305c68f.json",
+					"name" : "c__repo-demo44.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo45.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo45.cpp-Debug-caa89ffb3ae7c2b62ecc.json",
+					"name" : "c__repo-demo45.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo46.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo46.cpp-Debug-cd9ab5094d814ac07f17.json",
+					"name" : "c__repo-demo46.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo47.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo47.cpp-Debug-db852c024ff0317614b7.json",
+					"name" : "c__repo-demo47.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo5.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo5.cpp-Debug-4114a752dbf55f25517b.json",
+					"name" : "c__repo-demo5.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo6.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo6.cpp-Debug-554694ad5703d1ac1863.json",
+					"name" : "c__repo-demo6.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo7.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo7.cpp-Debug-36e899117246b7be0e44.json",
+					"name" : "c__repo-demo7.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo8.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo8.cpp-Debug-9ce5e63c26643438f5e7.json",
+					"name" : "c__repo-demo8.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "c__repo-demo9.cpp::@4e06414671578e196829",
+					"jsonFile" : "target-c__repo-demo9.cpp-Debug-49709966f0fedd88b6cf.json",
+					"name" : "c__repo-demo9.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "other-bind_function::@a7b50bebfb4c5cd662d4",
+					"jsonFile" : "target-other-bind_function-Debug-989e00da1a9aea63e75c.json",
+					"name" : "other-bind_function",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "other-kmp_algorithm::@a7b50bebfb4c5cd662d4",
+					"jsonFile" : "target-other-kmp_algorithm-Debug-9cfc2164088dd4135eba.json",
+					"name" : "other-kmp_algorithm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "other-std_head_source_file::@a7b50bebfb4c5cd662d4",
+					"jsonFile" : "target-other-std_head_source_file-Debug-e0b77b6e00c52135defc.json",
+					"name" : "other-std_head_source_file",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "other-std_move_function::@a7b50bebfb4c5cd662d4",
+					"jsonFile" : "target-other-std_move_function-Debug-05ab3bfc65d2114e835c.json",
+					"name" : "other-std_move_function",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/clion-repo/c_tutrial/cmake-build-debug",
+		"source" : "E:/clion-repo/c_tutrial"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
