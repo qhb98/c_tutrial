@@ -38,6 +38,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.24.2/CMakeRCCompiler.cmake"
   "CMakeFiles/3.24.2/CMakeSystem.cmake"
   "E:/clion-repo/c_tutrial/other/CMakeLists.txt"
+  "E:/clion-repo/c_tutrial/pointer_tutorial/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -51,6 +52,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "c++_start/CMakeFiles/CMakeDirectoryInformation.cmake"
   "other/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "pointer_tutorial/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -106,4 +108,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "other/CMakeFiles/other-std_move_function.dir/DependInfo.cmake"
   "other/CMakeFiles/other-std_head_source_file.dir/DependInfo.cmake"
   "other/CMakeFiles/other-kmp_algorithm.dir/DependInfo.cmake"
+  "other/CMakeFiles/other-try.dir/DependInfo.cmake"
   )

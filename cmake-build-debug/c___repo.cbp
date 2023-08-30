@@ -5,7 +5,7 @@
 		<Option title="c___repo"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\c++_start\;CMake Files\other\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\c++_start\;CMake Files\other\;CMake Files\pointer_tutorial\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="E:/clion-repo/c_tutrial/cmake-build-debug"/>
@@ -2383,6 +2383,52 @@
 					<DistClean command="D:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/clion-repo/c_tutrial/cmake-build-debug/other/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="other-try">
+				<Option output="E:/clion-repo/c_tutrial/cmake-build-debug/other/other-try.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/clion-repo/c_tutrial/cmake-build-debug/other"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/clion-repo/c_tutrial/other/."/>
+					<Add directory="D:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/clion-repo/c_tutrial/cmake-build-debug/other/Makefile&quot;  VERBOSE=1 other-try"/>
+					<CompileFile command="D:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/clion-repo/c_tutrial/cmake-build-debug/other/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/clion-repo/c_tutrial/cmake-build-debug/other/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/clion-repo/c_tutrial/cmake-build-debug/other/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="other-try/fast">
+				<Option output="E:/clion-repo/c_tutrial/cmake-build-debug/other/other-try.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/clion-repo/c_tutrial/cmake-build-debug/other"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/clion-repo/c_tutrial/other/."/>
+					<Add directory="D:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/clion-repo/c_tutrial/cmake-build-debug/other/Makefile&quot;  VERBOSE=1 other-try/fast"/>
+					<CompileFile command="D:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/clion-repo/c_tutrial/cmake-build-debug/other/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/clion-repo/c_tutrial/cmake-build-debug/other/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;E:/clion-repo/c_tutrial/cmake-build-debug/other/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="E:/clion-repo/c_tutrial/c++_start/demo01.cpp">
 			<Option target="c__repo-demo1.cpp"/>
@@ -2540,6 +2586,9 @@
 		<Unit filename="E:/clion-repo/c_tutrial/other/std_move_function.cpp">
 			<Option target="other-std_move_function"/>
 		</Unit>
+		<Unit filename="E:/clion-repo/c_tutrial/other/try.cpp">
+			<Option target="other-try"/>
+		</Unit>
 		<Unit filename="E:/clion-repo/c_tutrial/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
@@ -2548,6 +2597,9 @@
 		</Unit>
 		<Unit filename="E:/clion-repo/c_tutrial/other/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\other\"/>
+		</Unit>
+		<Unit filename="E:/clion-repo/c_tutrial/pointer_tutorial/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\pointer_tutorial\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

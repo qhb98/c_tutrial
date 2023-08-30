@@ -47,6 +47,11 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("E:/clion-repo/c_tutrial/cmake-build-debug/other/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("E:/clion-repo/c_tutrial/cmake-build-debug/pointer_tutorial/cmake_install.cmake")
+endif()
+
 if(CMAKE_INSTALL_COMPONENT)
   set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
 else()

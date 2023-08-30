@@ -171,6 +171,20 @@ other-kmp_algorithm/fast:
 	cd /d E:\clion-repo\c_tutrial\cmake-build-debug && $(MAKE) $(MAKESILENT) -f other\CMakeFiles\other-kmp_algorithm.dir\build.make other/CMakeFiles/other-kmp_algorithm.dir/build
 .PHONY : other-kmp_algorithm/fast
 
+# Convenience name for target.
+other/CMakeFiles/other-try.dir/rule:
+	cd /d E:\clion-repo\c_tutrial\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 other/CMakeFiles/other-try.dir/rule
+.PHONY : other/CMakeFiles/other-try.dir/rule
+
+# Convenience name for target.
+other-try: other/CMakeFiles/other-try.dir/rule
+.PHONY : other-try
+
+# fast build rule for target.
+other-try/fast:
+	cd /d E:\clion-repo\c_tutrial\cmake-build-debug && $(MAKE) $(MAKESILENT) -f other\CMakeFiles\other-try.dir\build.make other/CMakeFiles/other-try.dir/build
+.PHONY : other-try/fast
+
 bind_function.obj: bind_function.cpp.obj
 .PHONY : bind_function.obj
 
@@ -267,6 +281,30 @@ std_move_function.cpp.s:
 	cd /d E:\clion-repo\c_tutrial\cmake-build-debug && $(MAKE) $(MAKESILENT) -f other\CMakeFiles\other-std_move_function.dir\build.make other/CMakeFiles/other-std_move_function.dir/std_move_function.cpp.s
 .PHONY : std_move_function.cpp.s
 
+try.obj: try.cpp.obj
+.PHONY : try.obj
+
+# target to build an object file
+try.cpp.obj:
+	cd /d E:\clion-repo\c_tutrial\cmake-build-debug && $(MAKE) $(MAKESILENT) -f other\CMakeFiles\other-try.dir\build.make other/CMakeFiles/other-try.dir/try.cpp.obj
+.PHONY : try.cpp.obj
+
+try.i: try.cpp.i
+.PHONY : try.i
+
+# target to preprocess a source file
+try.cpp.i:
+	cd /d E:\clion-repo\c_tutrial\cmake-build-debug && $(MAKE) $(MAKESILENT) -f other\CMakeFiles\other-try.dir\build.make other/CMakeFiles/other-try.dir/try.cpp.i
+.PHONY : try.cpp.i
+
+try.s: try.cpp.s
+.PHONY : try.s
+
+# target to generate assembly for a file
+try.cpp.s:
+	cd /d E:\clion-repo\c_tutrial\cmake-build-debug && $(MAKE) $(MAKESILENT) -f other\CMakeFiles\other-try.dir\build.make other/CMakeFiles/other-try.dir/try.cpp.s
+.PHONY : try.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -279,6 +317,7 @@ help:
 	@echo ... other-kmp_algorithm
 	@echo ... other-std_head_source_file
 	@echo ... other-std_move_function
+	@echo ... other-try
 	@echo ... bind_function.obj
 	@echo ... bind_function.i
 	@echo ... bind_function.s
@@ -291,6 +330,9 @@ help:
 	@echo ... std_move_function.obj
 	@echo ... std_move_function.i
 	@echo ... std_move_function.s
+	@echo ... try.obj
+	@echo ... try.i
+	@echo ... try.s
 .PHONY : help
 
 

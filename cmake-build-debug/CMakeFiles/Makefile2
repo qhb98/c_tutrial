@@ -64,16 +64,19 @@ CMAKE_BINARY_DIR = E:\clion-repo\c_tutrial\cmake-build-debug
 # The main recursive "all" target.
 all: c++_start/all
 all: other/all
+all: pointer_tutorial/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: c++_start/preinstall
 preinstall: other/preinstall
+preinstall: pointer_tutorial/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: c++_start/clean
 clean: other/clean
+clean: pointer_tutorial/clean
 .PHONY : clean
 
 #=============================================================================
@@ -191,6 +194,7 @@ other/all: other/CMakeFiles/other-bind_function.dir/all
 other/all: other/CMakeFiles/other-std_move_function.dir/all
 other/all: other/CMakeFiles/other-std_head_source_file.dir/all
 other/all: other/CMakeFiles/other-kmp_algorithm.dir/all
+other/all: other/CMakeFiles/other-try.dir/all
 .PHONY : other/all
 
 # Recursive "preinstall" directory target.
@@ -202,7 +206,23 @@ other/clean: other/CMakeFiles/other-bind_function.dir/clean
 other/clean: other/CMakeFiles/other-std_move_function.dir/clean
 other/clean: other/CMakeFiles/other-std_head_source_file.dir/clean
 other/clean: other/CMakeFiles/other-kmp_algorithm.dir/clean
+other/clean: other/CMakeFiles/other-try.dir/clean
 .PHONY : other/clean
+
+#=============================================================================
+# Directory level rules for directory pointer_tutorial
+
+# Recursive "all" directory target.
+pointer_tutorial/all:
+.PHONY : pointer_tutorial/all
+
+# Recursive "preinstall" directory target.
+pointer_tutorial/preinstall:
+.PHONY : pointer_tutorial/preinstall
+
+# Recursive "clean" directory target.
+pointer_tutorial/clean:
+.PHONY : pointer_tutorial/clean
 
 #=============================================================================
 # Target rules for target c++_start/CMakeFiles/c__repo-demo1.cpp.dir
@@ -263,7 +283,7 @@ c++_start/CMakeFiles/c__repo-demo2.cpp.dir/clean:
 c++_start/CMakeFiles/c__repo-demo3.cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo3.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo3.cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo3.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo3.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=44,45 "Built target c__repo-demo3.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=43,44 "Built target c__repo-demo3.cpp"
 .PHONY : c++_start/CMakeFiles/c__repo-demo3.cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -289,7 +309,7 @@ c++_start/CMakeFiles/c__repo-demo3.cpp.dir/clean:
 c++_start/CMakeFiles/c__repo-demo4.cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo4.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo4.cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo4.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo4.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=65,66 "Built target c__repo-demo4.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=64,65 "Built target c__repo-demo4.cpp"
 .PHONY : c++_start/CMakeFiles/c__repo-demo4.cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -315,7 +335,7 @@ c++_start/CMakeFiles/c__repo-demo4.cpp.dir/clean:
 c++_start/CMakeFiles/c__repo-demo5.cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo5.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo5.cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo5.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo5.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=83,84 "Built target c__repo-demo5.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=81,82 "Built target c__repo-demo5.cpp"
 .PHONY : c++_start/CMakeFiles/c__repo-demo5.cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -341,7 +361,7 @@ c++_start/CMakeFiles/c__repo-demo5.cpp.dir/clean:
 c++_start/CMakeFiles/c__repo-demo6.cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo6.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo6.cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo6.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo6.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=85,86 "Built target c__repo-demo6.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=83,84 "Built target c__repo-demo6.cpp"
 .PHONY : c++_start/CMakeFiles/c__repo-demo6.cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -367,7 +387,7 @@ c++_start/CMakeFiles/c__repo-demo6.cpp.dir/clean:
 c++_start/CMakeFiles/c__repo-demo7.cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo7.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo7.cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo7.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo7.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=87,88 "Built target c__repo-demo7.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=85,86 "Built target c__repo-demo7.cpp"
 .PHONY : c++_start/CMakeFiles/c__repo-demo7.cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -393,7 +413,7 @@ c++_start/CMakeFiles/c__repo-demo7.cpp.dir/clean:
 c++_start/CMakeFiles/c__repo-demo8.cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo8.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo8.cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo8.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo8.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=89,90 "Built target c__repo-demo8.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=87,88 "Built target c__repo-demo8.cpp"
 .PHONY : c++_start/CMakeFiles/c__repo-demo8.cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -419,7 +439,7 @@ c++_start/CMakeFiles/c__repo-demo8.cpp.dir/clean:
 c++_start/CMakeFiles/c__repo-demo9.cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo9.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo9.cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo9.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo9.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=91,92 "Built target c__repo-demo9.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=89,90 "Built target c__repo-demo9.cpp"
 .PHONY : c++_start/CMakeFiles/c__repo-demo9.cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -731,12 +751,12 @@ c++_start/CMakeFiles/c__repo-demo20.cpp.dir/clean:
 c++_start/CMakeFiles/c__repo-demo21.cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo21.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo21.cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo21.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo21.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=26,27 "Built target c__repo-demo21.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=26 "Built target c__repo-demo21.cpp"
 .PHONY : c++_start/CMakeFiles/c__repo-demo21.cpp.dir/all
 
 # Build rule for subdir invocation for target.
 c++_start/CMakeFiles/c__repo-demo21.cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 c++_start/CMakeFiles/c__repo-demo21.cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles 0
 .PHONY : c++_start/CMakeFiles/c__repo-demo21.cpp.dir/rule
@@ -757,7 +777,7 @@ c++_start/CMakeFiles/c__repo-demo21.cpp.dir/clean:
 c++_start/CMakeFiles/c__repo-demo22.cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo22.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo22.cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo22.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo22.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=28,29 "Built target c__repo-demo22.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target c__repo-demo22.cpp"
 .PHONY : c++_start/CMakeFiles/c__repo-demo22.cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -783,7 +803,7 @@ c++_start/CMakeFiles/c__repo-demo22.cpp.dir/clean:
 c++_start/CMakeFiles/c__repo-demo23.cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo23.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo23.cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo23.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo23.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=30,31 "Built target c__repo-demo23.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target c__repo-demo23.cpp"
 .PHONY : c++_start/CMakeFiles/c__repo-demo23.cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -809,7 +829,7 @@ c++_start/CMakeFiles/c__repo-demo23.cpp.dir/clean:
 c++_start/CMakeFiles/c__repo-demo24.cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo24.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo24.cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo24.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo24.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=32,33 "Built target c__repo-demo24.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target c__repo-demo24.cpp"
 .PHONY : c++_start/CMakeFiles/c__repo-demo24.cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -835,7 +855,7 @@ c++_start/CMakeFiles/c__repo-demo24.cpp.dir/clean:
 c++_start/CMakeFiles/c__repo-demo25.cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo25.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo25.cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo25.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo25.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=34,35 "Built target c__repo-demo25.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target c__repo-demo25.cpp"
 .PHONY : c++_start/CMakeFiles/c__repo-demo25.cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -861,7 +881,7 @@ c++_start/CMakeFiles/c__repo-demo25.cpp.dir/clean:
 c++_start/CMakeFiles/c__repo-demo26.cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo26.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo26.cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo26.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo26.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=36,37 "Built target c__repo-demo26.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target c__repo-demo26.cpp"
 .PHONY : c++_start/CMakeFiles/c__repo-demo26.cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -887,7 +907,7 @@ c++_start/CMakeFiles/c__repo-demo26.cpp.dir/clean:
 c++_start/CMakeFiles/c__repo-demo27.cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo27.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo27.cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo27.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo27.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=38,39 "Built target c__repo-demo27.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target c__repo-demo27.cpp"
 .PHONY : c++_start/CMakeFiles/c__repo-demo27.cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -913,7 +933,7 @@ c++_start/CMakeFiles/c__repo-demo27.cpp.dir/clean:
 c++_start/CMakeFiles/c__repo-demo28.cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo28.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo28.cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo28.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo28.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=40,41 "Built target c__repo-demo28.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target c__repo-demo28.cpp"
 .PHONY : c++_start/CMakeFiles/c__repo-demo28.cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -939,7 +959,7 @@ c++_start/CMakeFiles/c__repo-demo28.cpp.dir/clean:
 c++_start/CMakeFiles/c__repo-demo29.cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo29.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo29.cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo29.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo29.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=42,43 "Built target c__repo-demo29.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=41,42 "Built target c__repo-demo29.cpp"
 .PHONY : c++_start/CMakeFiles/c__repo-demo29.cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -965,7 +985,7 @@ c++_start/CMakeFiles/c__repo-demo29.cpp.dir/clean:
 c++_start/CMakeFiles/c__repo-demo30.cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo30.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo30.cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo30.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo30.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=46,47 "Built target c__repo-demo30.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=45,46 "Built target c__repo-demo30.cpp"
 .PHONY : c++_start/CMakeFiles/c__repo-demo30.cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -991,7 +1011,7 @@ c++_start/CMakeFiles/c__repo-demo30.cpp.dir/clean:
 c++_start/CMakeFiles/c__repo-demo31.cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo31.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo31.cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo31.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo31.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=48,49 "Built target c__repo-demo31.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=47,48 "Built target c__repo-demo31.cpp"
 .PHONY : c++_start/CMakeFiles/c__repo-demo31.cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1017,12 +1037,12 @@ c++_start/CMakeFiles/c__repo-demo31.cpp.dir/clean:
 c++_start/CMakeFiles/c__repo-demo32.cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo32.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo32.cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo32.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo32.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=50 "Built target c__repo-demo32.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=49,50 "Built target c__repo-demo32.cpp"
 .PHONY : c++_start/CMakeFiles/c__repo-demo32.cpp.dir/all
 
 # Build rule for subdir invocation for target.
 c++_start/CMakeFiles/c__repo-demo32.cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 c++_start/CMakeFiles/c__repo-demo32.cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles 0
 .PHONY : c++_start/CMakeFiles/c__repo-demo32.cpp.dir/rule
@@ -1043,12 +1063,12 @@ c++_start/CMakeFiles/c__repo-demo32.cpp.dir/clean:
 c++_start/CMakeFiles/c__repo-demo33.cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo33.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo33.cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo33.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo33.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=51,52 "Built target c__repo-demo33.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=51 "Built target c__repo-demo33.cpp"
 .PHONY : c++_start/CMakeFiles/c__repo-demo33.cpp.dir/all
 
 # Build rule for subdir invocation for target.
 c++_start/CMakeFiles/c__repo-demo33.cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 c++_start/CMakeFiles/c__repo-demo33.cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles 0
 .PHONY : c++_start/CMakeFiles/c__repo-demo33.cpp.dir/rule
@@ -1069,7 +1089,7 @@ c++_start/CMakeFiles/c__repo-demo33.cpp.dir/clean:
 c++_start/CMakeFiles/c__repo-demo34.cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo34.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo34.cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo34.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo34.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=53,54 "Built target c__repo-demo34.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=52,53 "Built target c__repo-demo34.cpp"
 .PHONY : c++_start/CMakeFiles/c__repo-demo34.cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1095,7 +1115,7 @@ c++_start/CMakeFiles/c__repo-demo34.cpp.dir/clean:
 c++_start/CMakeFiles/c__repo-demo35.cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo35.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo35.cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo35.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo35.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=55,56 "Built target c__repo-demo35.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=54,55 "Built target c__repo-demo35.cpp"
 .PHONY : c++_start/CMakeFiles/c__repo-demo35.cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1121,7 +1141,7 @@ c++_start/CMakeFiles/c__repo-demo35.cpp.dir/clean:
 c++_start/CMakeFiles/c__repo-demo36.cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo36.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo36.cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo36.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo36.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=57,58 "Built target c__repo-demo36.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=56,57 "Built target c__repo-demo36.cpp"
 .PHONY : c++_start/CMakeFiles/c__repo-demo36.cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1147,7 +1167,7 @@ c++_start/CMakeFiles/c__repo-demo36.cpp.dir/clean:
 c++_start/CMakeFiles/c__repo-demo37.cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo37.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo37.cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo37.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo37.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=59,60 "Built target c__repo-demo37.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=58,59 "Built target c__repo-demo37.cpp"
 .PHONY : c++_start/CMakeFiles/c__repo-demo37.cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1173,7 +1193,7 @@ c++_start/CMakeFiles/c__repo-demo37.cpp.dir/clean:
 c++_start/CMakeFiles/c__repo-demo38.cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo38.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo38.cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo38.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo38.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=61,62 "Built target c__repo-demo38.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=60,61 "Built target c__repo-demo38.cpp"
 .PHONY : c++_start/CMakeFiles/c__repo-demo38.cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1199,7 +1219,7 @@ c++_start/CMakeFiles/c__repo-demo38.cpp.dir/clean:
 c++_start/CMakeFiles/c__repo-demo39.cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo39.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo39.cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo39.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo39.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=63,64 "Built target c__repo-demo39.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=62,63 "Built target c__repo-demo39.cpp"
 .PHONY : c++_start/CMakeFiles/c__repo-demo39.cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1225,7 +1245,7 @@ c++_start/CMakeFiles/c__repo-demo39.cpp.dir/clean:
 c++_start/CMakeFiles/c__repo-demo40.cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo40.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo40.cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo40.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo40.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=67,68 "Built target c__repo-demo40.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=66,67 "Built target c__repo-demo40.cpp"
 .PHONY : c++_start/CMakeFiles/c__repo-demo40.cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1251,7 +1271,7 @@ c++_start/CMakeFiles/c__repo-demo40.cpp.dir/clean:
 c++_start/CMakeFiles/c__repo-demo41.cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo41.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo41.cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo41.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo41.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=69,70 "Built target c__repo-demo41.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=68,69 "Built target c__repo-demo41.cpp"
 .PHONY : c++_start/CMakeFiles/c__repo-demo41.cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1277,7 +1297,7 @@ c++_start/CMakeFiles/c__repo-demo41.cpp.dir/clean:
 c++_start/CMakeFiles/c__repo-demo42.cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo42.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo42.cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo42.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo42.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=71,72 "Built target c__repo-demo42.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=70,71 "Built target c__repo-demo42.cpp"
 .PHONY : c++_start/CMakeFiles/c__repo-demo42.cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1303,7 +1323,7 @@ c++_start/CMakeFiles/c__repo-demo42.cpp.dir/clean:
 c++_start/CMakeFiles/c__repo-demo43.cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo43.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo43.cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo43.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo43.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=73,74 "Built target c__repo-demo43.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=72,73 "Built target c__repo-demo43.cpp"
 .PHONY : c++_start/CMakeFiles/c__repo-demo43.cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1329,7 +1349,7 @@ c++_start/CMakeFiles/c__repo-demo43.cpp.dir/clean:
 c++_start/CMakeFiles/c__repo-demo44.cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo44.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo44.cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo44.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo44.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=75,76 "Built target c__repo-demo44.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=74,75 "Built target c__repo-demo44.cpp"
 .PHONY : c++_start/CMakeFiles/c__repo-demo44.cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1355,12 +1375,12 @@ c++_start/CMakeFiles/c__repo-demo44.cpp.dir/clean:
 c++_start/CMakeFiles/c__repo-demo45.cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo45.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo45.cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo45.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo45.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=77,78 "Built target c__repo-demo45.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=76 "Built target c__repo-demo45.cpp"
 .PHONY : c++_start/CMakeFiles/c__repo-demo45.cpp.dir/all
 
 # Build rule for subdir invocation for target.
 c++_start/CMakeFiles/c__repo-demo45.cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 c++_start/CMakeFiles/c__repo-demo45.cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles 0
 .PHONY : c++_start/CMakeFiles/c__repo-demo45.cpp.dir/rule
@@ -1381,7 +1401,7 @@ c++_start/CMakeFiles/c__repo-demo45.cpp.dir/clean:
 c++_start/CMakeFiles/c__repo-demo46.cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo46.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo46.cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo46.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo46.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=79,80 "Built target c__repo-demo46.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=77,78 "Built target c__repo-demo46.cpp"
 .PHONY : c++_start/CMakeFiles/c__repo-demo46.cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1407,7 +1427,7 @@ c++_start/CMakeFiles/c__repo-demo46.cpp.dir/clean:
 c++_start/CMakeFiles/c__repo-demo47.cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo47.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo47.cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f c++_start\CMakeFiles\c__repo-demo47.cpp.dir\build.make c++_start/CMakeFiles/c__repo-demo47.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=81,82 "Built target c__repo-demo47.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=79,80 "Built target c__repo-demo47.cpp"
 .PHONY : c++_start/CMakeFiles/c__repo-demo47.cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1433,7 +1453,7 @@ c++_start/CMakeFiles/c__repo-demo47.cpp.dir/clean:
 other/CMakeFiles/other-bind_function.dir/all:
 	$(MAKE) $(MAKESILENT) -f other\CMakeFiles\other-bind_function.dir\build.make other/CMakeFiles/other-bind_function.dir/depend
 	$(MAKE) $(MAKESILENT) -f other\CMakeFiles\other-bind_function.dir\build.make other/CMakeFiles/other-bind_function.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=93,94 "Built target other-bind_function"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=91,92 "Built target other-bind_function"
 .PHONY : other/CMakeFiles/other-bind_function.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1459,7 +1479,7 @@ other/CMakeFiles/other-bind_function.dir/clean:
 other/CMakeFiles/other-std_move_function.dir/all:
 	$(MAKE) $(MAKESILENT) -f other\CMakeFiles\other-std_move_function.dir\build.make other/CMakeFiles/other-std_move_function.dir/depend
 	$(MAKE) $(MAKESILENT) -f other\CMakeFiles\other-std_move_function.dir\build.make other/CMakeFiles/other-std_move_function.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=99,100 "Built target other-std_move_function"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=97,98 "Built target other-std_move_function"
 .PHONY : other/CMakeFiles/other-std_move_function.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1485,7 +1505,7 @@ other/CMakeFiles/other-std_move_function.dir/clean:
 other/CMakeFiles/other-std_head_source_file.dir/all:
 	$(MAKE) $(MAKESILENT) -f other\CMakeFiles\other-std_head_source_file.dir\build.make other/CMakeFiles/other-std_head_source_file.dir/depend
 	$(MAKE) $(MAKESILENT) -f other\CMakeFiles\other-std_head_source_file.dir\build.make other/CMakeFiles/other-std_head_source_file.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=97,98 "Built target other-std_head_source_file"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=95,96 "Built target other-std_head_source_file"
 .PHONY : other/CMakeFiles/other-std_head_source_file.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1511,7 +1531,7 @@ other/CMakeFiles/other-std_head_source_file.dir/clean:
 other/CMakeFiles/other-kmp_algorithm.dir/all:
 	$(MAKE) $(MAKESILENT) -f other\CMakeFiles\other-kmp_algorithm.dir\build.make other/CMakeFiles/other-kmp_algorithm.dir/depend
 	$(MAKE) $(MAKESILENT) -f other\CMakeFiles\other-kmp_algorithm.dir\build.make other/CMakeFiles/other-kmp_algorithm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=95,96 "Built target other-kmp_algorithm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=93,94 "Built target other-kmp_algorithm"
 .PHONY : other/CMakeFiles/other-kmp_algorithm.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1529,6 +1549,32 @@ other-kmp_algorithm: other/CMakeFiles/other-kmp_algorithm.dir/rule
 other/CMakeFiles/other-kmp_algorithm.dir/clean:
 	$(MAKE) $(MAKESILENT) -f other\CMakeFiles\other-kmp_algorithm.dir\build.make other/CMakeFiles/other-kmp_algorithm.dir/clean
 .PHONY : other/CMakeFiles/other-kmp_algorithm.dir/clean
+
+#=============================================================================
+# Target rules for target other/CMakeFiles/other-try.dir
+
+# All Build rule for target.
+other/CMakeFiles/other-try.dir/all:
+	$(MAKE) $(MAKESILENT) -f other\CMakeFiles\other-try.dir\build.make other/CMakeFiles/other-try.dir/depend
+	$(MAKE) $(MAKESILENT) -f other\CMakeFiles\other-try.dir\build.make other/CMakeFiles/other-try.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles --progress-num=99,100 "Built target other-try"
+.PHONY : other/CMakeFiles/other-try.dir/all
+
+# Build rule for subdir invocation for target.
+other/CMakeFiles/other-try.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 other/CMakeFiles/other-try.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\clion-repo\c_tutrial\cmake-build-debug\CMakeFiles 0
+.PHONY : other/CMakeFiles/other-try.dir/rule
+
+# Convenience name for target.
+other-try: other/CMakeFiles/other-try.dir/rule
+.PHONY : other-try
+
+# clean rule for target.
+other/CMakeFiles/other-try.dir/clean:
+	$(MAKE) $(MAKESILENT) -f other\CMakeFiles\other-try.dir\build.make other/CMakeFiles/other-try.dir/clean
+.PHONY : other/CMakeFiles/other-try.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

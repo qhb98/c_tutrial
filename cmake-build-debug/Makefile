@@ -778,6 +778,19 @@ other-kmp_algorithm/fast:
 	$(MAKE) $(MAKESILENT) -f other\CMakeFiles\other-kmp_algorithm.dir\build.make other/CMakeFiles/other-kmp_algorithm.dir/build
 .PHONY : other-kmp_algorithm/fast
 
+#=============================================================================
+# Target rules for targets named other-try
+
+# Build rule for target.
+other-try: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 other-try
+.PHONY : other-try
+
+# fast build rule for target.
+other-try/fast:
+	$(MAKE) $(MAKESILENT) -f other\CMakeFiles\other-try.dir\build.make other/CMakeFiles/other-try.dir/build
+.PHONY : other-try/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -837,6 +850,7 @@ help:
 	@echo ... other-kmp_algorithm
 	@echo ... other-std_head_source_file
 	@echo ... other-std_move_function
+	@echo ... other-try
 .PHONY : help
 
 

@@ -53,5 +53,8 @@ E:/clion-repo/c_tutrial/cmake-build-debug/other/CMakeFiles/other-bind_function.d
 E:/clion-repo/c_tutrial/cmake-build-debug/other/CMakeFiles/other-std_move_function.dir
 E:/clion-repo/c_tutrial/cmake-build-debug/other/CMakeFiles/other-std_head_source_file.dir
 E:/clion-repo/c_tutrial/cmake-build-debug/other/CMakeFiles/other-kmp_algorithm.dir
+E:/clion-repo/c_tutrial/cmake-build-debug/other/CMakeFiles/other-try.dir
 E:/clion-repo/c_tutrial/cmake-build-debug/other/CMakeFiles/edit_cache.dir
 E:/clion-repo/c_tutrial/cmake-build-debug/other/CMakeFiles/rebuild_cache.dir
+E:/clion-repo/c_tutrial/cmake-build-debug/pointer_tutorial/CMakeFiles/edit_cache.dir
+E:/clion-repo/c_tutrial/cmake-build-debug/pointer_tutorial/CMakeFiles/rebuild_cache.dir
